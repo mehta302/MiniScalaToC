@@ -1,0 +1,35 @@
+1777180256637:run "val x = 1; 0"
+1777185628690:run "def makeAdder(x: Int): Int => Int = (y: Int) => x + y; val incr = makeAdder(1); putchar(incr(64)); 0"
+1777192185320:run "def fib(x: Int): Int = if (x == 1) 1 else if (x == 0) 0 else fib(x-1) + fib(x-2); fib(3)"
+1777192210920:run "def fib(x: Int): Int = if (x == 1) 1 else if (x == 0) 0 else fib(x-1) + fib(x-2); putchar(65+fib(3)); 0"
+1777192284590:run "def fib(x: Int): Int = if (x == 1) 1 else if (x == 0) 0 else fib(x-1) + fib(x-2); putchar(65+fib(4)); 0"
+1777192328242:run "def fib(x: Int): Int = if (x == 1) 1 else if (x == 0) 0 else fib(x-1) + fib(x-2); putchar(65+fib(5)); 0"
+1777198002332:run ../library/miniscala.lib ../examples/pascal.scala
+1777249648947:run ../library/miniscala.lib ../examples/fibonacci.scala
+1777249949453:run ../library/miniscala.lib ../examples/makeAdder.scala
+1777250042312:run ../library/miniscala.lib ../examples/bignums.scala
+1777250261049:run ../library/miniscala.lib ../examples/maze.scala
+1777250591904:run ../library/miniscala.lib ../examples/oddEven.scala
+1777250647204:run ../library/miniscala.lib ../examples/pow.scala
+1777250860882:run ../library/miniscala.lib ../examples/queens.scala
+1777251281389:run ../examples/reverse.scala
+1777251322277:run ../examples/sieve.scala
+1777252439382:run ../library/miniscala.lib ../examples/bignums.scala
+1777252492524:run ../library/miniscala.lib ../examples/maze.scala
+1777252542068:run ../library/miniscala.lib ../examples/pascal.scala
+1777252581645:run ../library/miniscala.lib ../examples/queens.scala
+1777252628889:run ../examples/oddEvens.scala
+1777252682974:run ../examples/sieve.scala
+1777252791307:run "val zero = '0'.toInt;\n\ndef printDigit(x: Int) = {\n  putchar(zero + x)\n};\n\ndef myPrintInt(x: Int) = { // only 1 digits!\n  if (x >= 0 && x <= 9)\n    printDigit(x)\n};\n\ndef isEvenRec(n: Int) : Int = {\n    if (n == 0) 1\n    else isOddRec(n - 1)\n};\n\ndef isOddRec(n: Int) : Int = {\n    if (n == 0) 0\n    else isEvenRec(n - 1)\n};\n\nvar pr = 9;\nif (isEvenRec(7)==1) pr = 4;\nmyPrintInt(pr);\nputchar(10);\n1"
+1777252886921:run ../examples/pow.scala
+1777252912418:run ../examples/makeAdder.scala
+1777253855608:run ../library/miniscala.lib ../examples/queens.scala
+1777253949084:run "val x = 10; 0"
+1777254097602:run "val x = 9; 0"
+1777254178313:run ../library/miniscala.lib ../examples/queens.scala
+1777254713208:run ../library/miniscala.lib ../examples/queen.scala
+1777254720142:run ../library/miniscala.lib ../examples/queens.scala
+1777255753362:run ../library/miniscala.lib ../examples/pascal.scala
+1777255855389:run ../library/miniscal.lib ../examples/pascal.scala
+1777255869577:run ../library/miniscala.lib ../examples/pascal.scala
+1777256679078:run ../library/miniscala.lib ../examples/queens.scala

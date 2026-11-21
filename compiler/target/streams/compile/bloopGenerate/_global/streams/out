@@ -1,0 +1,4 @@
+[debug] [cmScala] Classpath dependencies List()
+[debug] [cmScala] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'cmScala' to '/u/riker/u89/mehta302/cs352/proj7/compiler/.bloop/cmScala.json'
+[success] Generated .bloop/cmScala.json

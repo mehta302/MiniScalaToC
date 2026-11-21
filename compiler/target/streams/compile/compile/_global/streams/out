@@ -1,0 +1,9 @@
+[0m[[0m[33mwarn[0m] [0m[0m/u/riker/u89/mehta302/cs352/bonus/proj7/compiler/src/miniscala/CPSToCEmitter.scala:230:18: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: CntDef(Reg(_), _, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m        cnts.map {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/u/riker/u89/mehta302/cs352/bonus/proj7/compiler/src/miniscala/CPSToCEmitter.scala:280:31: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: CntDef(Reg(_), _, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m          contEnv ++ cnts.map {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

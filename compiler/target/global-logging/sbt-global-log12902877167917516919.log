@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run "def makeAdder(x: Int): Int => Int = (y: Int) => x + y; val incr = makeAdder(1); putchar(incr(64)); 0", Some(1a6d2385-0e1c-4edb-b337-8e12b1ae7d62), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /u/riker/u89/mehta302/cs352/bonus/proj7/compiler/target/scala-2.12/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/u/riker/u89/mehta302/cs352/bonus/proj7/compiler/src/miniscala/CPSToCEmitter.scala:229:18: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: CntDef(Reg(_), _, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m        cnts.map {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/u/riker/u89/mehta302/cs352/bonus/proj7/compiler/src/miniscala/CPSToCEmitter.scala:279:31: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: CntDef(Reg(_), _, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m          contEnv ++ cnts.map {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[33mwarn[0m] [0m[0mCompile / run / javaOptions will be ignored, Compile / run / fork is set to false[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 9 s, completed Apr 26, 2026, 4:24:18 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m
